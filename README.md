@@ -51,7 +51,7 @@ Before you begin, make sure you have the following installed:
 - If you encounter any issues, refer to the [Expo documentation](https://docs.expo.dev/) or community forums for assistance.
 - Feel free to customize and enhance the app to meet your specific requirements.
 
-
+## Demo
 
 <img src="https://github.com/SahilNalavade/CodeFobe/assets/84601587/940effb0-6861-4d24-8237-38bd15adec56" alt="Demo" height="500">
 <img src="https://github.com/SahilNalavade/CodeFobe/assets/84601587/d403aee2-750d-4dfc-b0d5-052b22344517" alt="Demo" height="500">
