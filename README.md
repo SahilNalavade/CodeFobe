@@ -52,5 +52,6 @@ Before you begin, make sure you have the following installed:
 - Feel free to customize and enhance the app to meet your specific requirements.
 
 
-![App Screenshot Light Mode](https://github.com/SahilNalavade/CodeFobe/assets/84601587/940effb0-6861-4d24-8237-38bd15adec56)
-![App Screenshot Dark Mode](https://github.com/SahilNalavade/CodeFobe/assets/84601587/d403aee2-750d-4dfc-b0d5-052b22344517)
+
+<img src="https://github.com/SahilNalavade/CodeFobe/assets/84601587/940effb0-6861-4d24-8237-38bd15adec56" alt="Demo" height="500">
+<img src="https://github.com/SahilNalavade/CodeFobe/assets/84601587/d403aee2-750d-4dfc-b0d5-052b22344517" alt="Demo" height="500">
