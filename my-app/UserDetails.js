@@ -1,11 +1,16 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
+// UserDetails component to display user details
 const UserDetails = ({ user, isDarkMode }) => {
   return (
     <View style={[styles.container, isDarkMode ? styles.darkMode : styles.lightMode]}>
+      {/* Display user avatar */}
       <Image source={{ uri: user.avatar }} style={styles.avatar} />
+
+      {/* Container for user details */}
       <View style={styles.detailsContainer}>
+        {/* Render individual details */}
         {renderDetail('ID', user.id, isDarkMode)}
         {renderDetail('UID', user.uid, isDarkMode)}
         {renderDetail('First Name', user.first_name, isDarkMode)}
@@ -17,13 +22,18 @@ const UserDetails = ({ user, isDarkMode }) => {
   );
 };
 
+// Render individual detail item
 const renderDetail = (label, value, isDarkMode) => (
   <View style={[styles.detailContainer, isDarkMode ? styles.darkModeDetail : null]} key={label}>
+    {/* Display label with styling */}
     <Text style={[styles.label, isDarkMode ? styles.darkModeText : styles.lightModeText, styles.boldText]}>{label}</Text>
+    
+    {/* Display value with styling */}
     <Text style={[styles.value, isDarkMode ? styles.darkModeText : styles.lightModeText]}>{value}</Text>
   </View>
 );
 
+// Styles for the component
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
@@ -38,6 +48,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     borderWidth: 5,
     borderColor: '#bdc3c7',
+    backgroundColor:'#edeff4',
   },
   detailsContainer: {
     width: '100%',
@@ -64,7 +75,6 @@ const styles = StyleSheet.create({
   lightModeText: {
     color: '#000', // Black text for light mode
   },
-  
 });
 
 export default UserDetails;
