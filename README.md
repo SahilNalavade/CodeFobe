@@ -14,42 +14,35 @@ This React Native Expo project is a stylish user details display application. It
 
 ## How to Run Locally
 
-### Prerequisites
+## Running the Application Locally
 
-Before you begin, make sure you have the following installed:
-
-- Node.js and npm (Node version 12 or higher)
-- Expo CLI (install globally using `npm install -g expo-cli`)
-- Expo Go app installed on your mobile device (iOS or Android)
-
-### Installation
-
-1. **Clone the Repository:**
-2. 
-3. **Navigate to the Project Folder:**
-
-4. **Install Dependencies:**
-   `npm install`
-
-### Running the App
-
-1. **Start the Expo Development Server:**
-   `expo start`
-
-   This will start the Expo development server and open the Expo DevTools in your default web browser.
-
-2. **Scan the QR Code:**
-   - Open the Expo Go app on your mobile device.
-   - Use your device's camera to scan the QR code displayed in the Expo DevTools or terminal.
-
-3. **View the App:**
-   Your React Native Expo app should now be running on your mobile device. 
+1. Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+2. Install [Expo CLI](https://docs.expo.dev/get-started/installation/) globally by running the following command:
+    ```bash
+    npm install -g expo-cli
+    ```
+3. Clone this repository to your local machine:
+4. Navigate to the project directory:
+5. Install dependencies:
+    ```bash
+    npm install
+    ```
+6. Start the Expo development server:
+    ```bash
+    expo start
+    ```
+7. Open the Expo Go app on your mobile device.
+8. Scan the QR code displayed in the Expo DevTools or terminal with your Expo Go app.
+9. The app will be loaded on your mobile device. 
 
 ## Additional Notes
 
-- Make sure your development machine and mobile device are connected to the same network for QR code scanning to work.
+ Make sure your development machine and mobile device are connected to the same network for QR code scanning to work.
 - If you encounter any issues, refer to the [Expo documentation](https://docs.expo.dev/) or community forums for assistance.
-- Feel free to customize and enhance the app to meet your specific requirements.
+- This project consists of three main files:
+  - `App.js`: The main entry point of the application.
+  - `UserDetails.js`: A component responsible for displaying user details.
+  - `NavigationButtons.js`: A component providing navigation buttons for moving between user data.
 
 ## Demo
 
