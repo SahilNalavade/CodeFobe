@@ -1,13 +1,19 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
+// NavigationButtons component to display Previous and Next buttons
 const NavigationButtons = ({ onPrevious, onNext }) => {
   return (
     <View style={styles.container}>
+      {/* Previous button */}
       <TouchableOpacity style={styles.buttonPrevious} onPress={onPrevious}>
         <Text style={[styles.buttonText, { color: '#151b20' }]}>Previous</Text>
       </TouchableOpacity>
+
+      {/* Spacing for better layout */}
       <View style={styles.spacing}></View>
+
+      {/* Next button */}
       <TouchableOpacity style={styles.buttonNext} onPress={onNext}>
         <Text style={[styles.buttonText, { color: '#edeff4' }]}>Next</Text>
       </TouchableOpacity>
@@ -15,6 +21,7 @@ const NavigationButtons = ({ onPrevious, onNext }) => {
   );
 };
 
+// Styles for the component
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
